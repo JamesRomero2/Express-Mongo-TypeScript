@@ -2,7 +2,7 @@
   "name": "expressmongots",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.ts",
+  "main": "build/server.js",
   "scripts": {
     "build": "rm -rf build/ && tsc",
     "start": "node build/server.js",
