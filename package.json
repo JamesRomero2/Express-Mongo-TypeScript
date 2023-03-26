@@ -4,7 +4,7 @@
   "description": "",
   "main": "build/server.js",
   "scripts": {
-    "build": "rm -rf build/ && npm && npm install && tsc",
+    "build": "rm -rf build/ && npm install && tsc",
     "start": "node build/server.js",
     "deploy": "rm -rf build/ && tsc && node build/server.js"
   },
